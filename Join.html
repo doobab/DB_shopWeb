@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>회원가입</title>
+	<link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="title">
+      회원가입
+    </div>
+    <form action = "Join_R.php" method = "post">
+    <div class="form">
+       <div class="inputfield">
+          <label>ID</label>
+          <input required type="text" class="input" name = "id">
+       </div>  
+       <div class="inputfield">
+          <label>비밀번호</label>
+          <input required type="password" class="input" name = "pw">
+       </div> 
+       <div class="inputfield">
+          <label>이름</label>
+          <input required placeholder="Hong Gil Dong" type="text" class="input" name = "name">
+       </div>  
+      <div class="inputfield">
+          <label>전화번호</label>
+          <input required placeholder="010-0000-0000" type="text" class="input" name = "tp">
+       </div> 
+      <div class="inputfield">
+          <label>주소</label>
+          <input required placeholder="Seoul Gangnam-gu"type="text" class="input" name = "add">
+       </div>
+      <div class="inputfield terms">
+          <label class="check">
+            <input required type="checkbox">
+            <span class="checkmark"></span>
+          </label>
+          <p>회원가입에 동의합니다.</p>
+       </div> 
+      <div class="inputfield">
+        <input type="submit" value="Register" class="btn">
+      </div>
+    </div>
+</div>	
+	
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/logindefault.css">
+  <link rel="stylesheet" href="css/loginstyle.css">
+  <title>로그인</title>
+</head>
+<body>
+
+
+  <section class="login">
+    <h2>로그인</h2>
+    <ul>
+      <form action = "Login_R.php" method = "post">
+          <li> <input type="text" placeholder="아이디" title="아이디입력" name = "uid" required="required"></li>
+          <li> <input type="password" placeholder="비밀번호" title="비밀번호입력" name="pw" required="required"></li>
+          <li><input type="checkbox" id="chk_id"><label for="chk_id">아이디저장</label></li>
+          <li><button type="submit">로그인</button></li>
+    </ul>
+    <div>
+      <ul>
+      <li><a href="Join.html">회원가입</a></li>
+      <li><a href="FindID.html">아이디 찾기</a></li>
+      <li><a href="FindPW.html">비밀번호 찾기</a></li>
+      </ul>
+    </div>
+  </section>
+
+
+
+
+</body>
+</html>
